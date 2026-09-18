@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>MeuCraft</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="menu">
+    <h1>MeuCraft</h1>
+    <p>Um pequeno mundo de blocos no navegador.</p>
+    <button id="play">JOGAR</button>
+  </div>
+
+  <div id="game" hidden>
+    <div id="crosshair">+</div>
+    <div id="help">PC: WASD para andar • Mouse para olhar • Clique esquerdo/direito para remover/colocar</div>
+    <div id="mobileControls">
+      <div id="joystick">◉</div>
+      <div id="actions">
+        <button id="break">⛏</button>
+        <button id="place">▣</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="game.js"></script>
+</body>
+</html>
